@@ -50,9 +50,10 @@ sdss_datathon_2026/
 ## Authors
 
 **KelvinPogo** — [GitHub Profile](https://github.com/KelvinPogo)
-**shrEkt101## - [GitHub Profile](https://github.com/shrEkt101)
+**shrEkt101** - [GitHub Profile](https://github.com/shrEkt101)
 
 ## License
 
 This project is open source. See the repository for details.
+
 
