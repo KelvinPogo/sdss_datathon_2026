@@ -54,7 +54,7 @@ The raw dataset contained **100,337 rows**. The following cleaning steps were ap
 
 1. **4 rows** with a missing `PROGRAM_MODEL` value (a "Top Bunk Contingency Space" Youth program in January 2025) were identified and dropped.
 2. A further **4,512 rows** with a missing `LOCATION_POSTAL_CODE` were removed.
-3. The final clean dataset used for modeling contains **95,821 rows**.
+3. The final clean dataset used for modeling contains **95,821 rows** and is saved as `clean_data.csv`.
 
 ## Modeling
 
@@ -101,39 +101,33 @@ XGBoost significantly outperformed both logistic regression variants, achieving 
 sdss_datathon_2026/
 ├── SDSS_datathon.ipynb          # Visualization & interactive map
 ├── My_copy_SDSS_datathon.ipynb  # Data cleaning & model training
+├── clean_data.csv               # Cleaned dataset (95,821 rows)
 ├── requirements.txt
 └── README.md
 ```
 
-## Getting Started
+## Running the Notebooks
 
-### Prerequisites
-- Python 3.12+
-- Jupyter Notebook or JupyterLab
+Both notebooks are designed to run in **Google Colab**.
 
-### Installation
+### Step 1 — Download the cleaned dataset
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/KelvinPogo/sdss_datathon_2026.git
-   cd sdss_datathon_2026
-   ```
+Download `clean_data.csv` from this repository:
+```
+https://github.com/KelvinPogo/sdss_datathon_2026/raw/main/clean_data.csv
+```
 
-2. Install required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+### Step 2 — Open the notebook in Colab
 
-3. Launch Jupyter:
-   ```bash
-   jupyter notebook
-   ```
+Click the **Open in Colab** badge at the top of either notebook, or open it manually at [colab.research.google.com](https://colab.research.google.com) via `File → Open notebook → GitHub`.
 
-4. Open `SDSS_datathon.ipynb` to view the main analysis.
+### Step 3 — Upload the CSV to Colab
 
-## Usage
-- **`SDSS_datathon.ipynb`** — Scroll to the very end of the notebook and check out the interactive map.
-- **`My_copy_SDSS_datathon.ipynb`** — Data cleaning, feature engineering, and model training (Logistic Regression + XGBoost).
+Drag and drop `clean_data.csv` into the 📁 **Files** panel on the left sidebar in Colab.
+
+### Step 4 — Run all cells
+
+Go to `Runtime → Run all` to execute the full notebook from top to bottom.
 
 ## Authors
 **KelvinPogo** — [GitHub Profile](https://github.com/KelvinPogo)  
