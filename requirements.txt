@@ -1,0 +1,11 @@
+folium==0.20.0
+google
+matplotlib==3.10.0
+pandas==2.2.2
+pgeocode==0.5.0
+numpy==2.0.2
+Pillow==11.3.0
+branca==0.8.2
+requests==2.32.4
+pyarrow==18.1.0
+xyzservices==2025.11.0
