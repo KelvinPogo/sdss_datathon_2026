@@ -17,7 +17,9 @@ This project treats the dataset as a **panel of shelter programs observed daily*
 Findings are translated into **data-driven recommendations** for improving operational planning, capacity buffering, and service coordination within the shelter system.
 
 ## Dataset
-The dataset is sourced from the City of Toronto's shelter management system and contains daily occupancy records with the following variables:
+The dataset is sourced from the City of Toronto's shelter management system and contains daily occupancy records.
+
+### Original Variables
 
 | Variable | Description | Type |
 |---|---|---|
@@ -34,6 +36,14 @@ The dataset is sourced from the City of Toronto's shelter management system and 
 | `OCCUPANCY_RATE` | Occupied capacity divided by actual capacity (0–1) | Continuous |
 
 > Note: Full postal codes are included; address and name fields have been removed. Capacity figures are standardized across beds and rooms. Occupancy rate is the primary system pressure indicator.
+
+### Engineered Features
+
+| Variable | Description | Type |
+|---|---|---|
+| `LATITUDE` | Latitude coordinate of the service location, geocoded from postal code | Continuous |
+| `LONGITUDE` | Longitude coordinate of the service location, geocoded from postal code | Continuous |
+| `DAY_NUM` | Day number relative to the start of the dataset (1 = Jan 1, 2024) | Continuous |
 
 ## Repository Structure
 ```
