@@ -34,7 +34,6 @@ sdss_datathon_2026/
    ```bash
    pip install -r requirements.txt
    ```
-   *(If no `requirements.txt` is present, common packages used include `pandas`, `numpy`, `matplotlib`, `seaborn`, and `scikit-learn`.)*
 
 3. Launch Jupyter:
    ```bash
@@ -45,17 +44,15 @@ sdss_datathon_2026/
 
 ## Usage
 
-- **`SDSS_datathon.ipynb`** — The primary notebook containing the full analysis pipeline: data loading, preprocessing, EDA, modeling, and results.
-- **`My_copy_SDSS_datathon.ipynb`** — A personal working copy used for experimentation and iteration during the competition.
+- **`SDSS_datathon.ipynb`** — Scroll to the very end of the notebook and check out the interactive map.
+- **`My_copy_SDSS_datathon.ipynb`** — Model analysis was done here.
 
-## About the SDSS Datathon
-
-The [Symposium on Data Science & Statistics (SDSS)](https://ww2.amstat.org/meetings/sdss/2026/) is an annual conference organized by the American Statistical Association. The datathon is a competition component where participants tackle real-world data challenges.
-
-## Author
+## Authors
 
 **KelvinPogo** — [GitHub Profile](https://github.com/KelvinPogo)
+**shrEkt101## - [GitHub Profile](https://github.com/shrEkt101)
 
 ## License
 
 This project is open source. See the repository for details.
+
